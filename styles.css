@@ -1,0 +1,349 @@
+
+html{scroll-behavior: smooth;}
+
+
+*{ box-sizing: border-box;}
+body {
+
+    margin: 0;
+    /*background-color: #f0c188;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva;
+}
+.hero {
+    background-image: linear-gradient(rgba(252, 205, 119,0.836), rgba(252, 205, 119, 0.836)),
+    url("camino.png");
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#932416 ;
+    text-align: center;
+    padding: 250px;
+    display: flex;
+    justify-content: center;
+}
+#Quienessomos{
+background-image: linear-gradient(rgba(252, 205, 119,0.836), rgba(252, 205, 119, 0.836)),
+url("lluvia.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+    color:#bb3621 ;
+    text-align: justify;
+    justify-content: center;
+    padding: 100px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 25px;
+}
+
+h1{font-size: 3em;}
+h2{font-size: 2.5em;}
+h3{font-size: 2em;}
+h1,h2,h3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+ }
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #6a120b;
+    box-shadow: 2px 2px 10px #6a120b;
+    color:antiquewhite;
+    background-color:  #bb3621;
+
+}
+button:hover {
+    background-color:#420000; }
+
+header {
+    background-color: rgba(147, 36, 22, 0.85);
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+nav a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    
+}
+.logo {
+    color:antiquewhite;
+    margin: 0;
+    font-size: 32px;
+}
+nav {
+    display: flex;
+    gap: 25px;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+}
+#Programas {
+
+    background-color: #f0c188;
+    text-align: center;
+    font-size: 25px;
+    padding: 70px 0;
+    color:#932416 ;
+
+}
+    
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+ margin-top: 60px;}
+
+.card {
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+
+    background-color: rgba(245, 225, 220, 0.85);
+    box-shadow: 0 5px 20px rgba(80, 50, 40, 0.15);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 45px;
+    box-sizing: border-box;
+}
+.card h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 25px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #932416;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: #7a1d12;
+}
+
+#Caracteristicas {
+    background-color: #f0c188;
+    color:#932416 ;
+    text-align: center;
+    padding: 120px 20px;
+    font-size: 30px;
+}
+
+
+#Caracteristicas ul {
+    list-style: none;
+    padding: 0;
+
+    
+}
+#Caracteristicas li {
+    margin-bottom: 25px;
+    font-size: 25px;
+    
+}
+h3{ text-align: center;
+font-family: san sans-serif;
+}
+#Contacto{
+    background-color: #f0c188;
+    margin-bottom: 0px;
+    padding: 50px;
+}
+form{
+    background-color: #dd705a;
+    color: antiquewhite;
+    padding: 40px 0;
+    margin: auto;
+    max-width: 600px;
+    box-shadow: 0 0 35px #a84231;
+}
+.form-input{
+    padding: 6px 20px;
+
+}
+input, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border: none;
+    border-left: 4px solid #932416
+}
+button {
+    display: block;
+    margin: auto;
+}
+footer {
+    background-color: #932416;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 0;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 0;
+
+}
+
+
+/* SECCIÓN MATEMÁTICA 1 */
+
+.nombre-sitio {
+    font-size: 25px;
+    font-weight: bold;
+    color:antiquewhite;
+    margin: 0;
+}
+
+body.pagina-secundaria {
+    background-image: url("hoja.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Matematica1 {
+    padding-top: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',;
+    font-size: 40px;
+    background: linear-gradient(
+    to bottom,
+    #f7876e 0%,
+    #f7876e 20%,
+    transparent 100%
+);
+}
+
+.titulo-programa {
+    text-align: center;
+    max-width: 850px;
+    margin: 0 auto 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+.titulo-programa span {
+    color:antiquewhite;
+    letter-spacing: 5px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+}
+
+.titulo-programa h2 {
+    font-size: 42px;
+    margin: 20px 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+}
+
+
+.temas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.tema {
+    background-color: #bb3621;
+    color: antiquewhite;
+    padding: 35px;
+    min-height: 220px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tema a {
+    text-decoration: none;
+}
+
+.numero {
+    display: inline-flex;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #932416;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.tema h3 {
+    font-size: 27px;
+    margin: 25px 0 10px;
+
+}
+
+.tema p {
+    font-family: 'Times New Roman',;
+    font-size: 16px;
+    line-height: 1.6;
+
+
+}
+
+
+/*Seccion matematica 2*/
+
+#Matematica2 {
+    margin-top: 200px;
+    font-size: 40px;
+    padding: 120px 0;
+    background: linear-gradient(
+    to bottom, #9f6d61  0%,#9f6d61 20%, transparent 100%);
+}
+/*seccion matematica 3*/
+
+#Matematica3 {
+    font-size: 40px;
+    padding: 120px 0;
+    background: linear-gradient(
+    to bottom,
+#591310  0%,
+#591310 20%,
+    transparent 100%
+    )
+}
+
+
+
+
+
